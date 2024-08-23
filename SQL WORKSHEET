@@ -17,7 +17,14 @@
   select * 
   from emp 
   where rownum < 6
-6.
+10.
   select *
   from emp
   where MGR IN(7698,7566) AND SAL > 1500;
+11.
+  SELECT *
+  FROM emp
+  where SAL < (SELECT SAL
+   			       FROM emp
+   			       WHERE ENAME = 'FORD' );
+
