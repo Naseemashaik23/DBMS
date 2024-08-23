@@ -17,3 +17,7 @@
   select * 
   from emp 
   where rownum < 6
+6.
+  select *
+  from emp
+  where MGR IN(7698,7566) AND SAL > 1500;
