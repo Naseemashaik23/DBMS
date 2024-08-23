@@ -1,0 +1,19 @@
+1.
+  select * 
+  from emp
+2.
+  select * 
+  from emp 
+  where DEPTNO = 10
+3.
+  select * 
+  from emp 
+  where DEPTNO <> 30
+4.
+  select * 
+  from emp 
+  ORDER BY SAL desc
+5.
+  select * 
+  from emp 
+  where rownum < 6
