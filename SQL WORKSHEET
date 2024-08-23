@@ -27,4 +27,7 @@
   where SAL < (SELECT SAL
    			      FROM emp
    			      WHERE ENAME = 'FORD' );
-
+14.
+  select distinct JOB
+  from emp;
+  
