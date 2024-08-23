@@ -25,6 +25,6 @@
   SELECT *
   FROM emp
   where SAL < (SELECT SAL
-   			       FROM emp
-   			       WHERE ENAME = 'FORD' );
+   			      FROM emp
+   			      WHERE ENAME = 'FORD' );
 
