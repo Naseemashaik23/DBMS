@@ -57,5 +57,9 @@
   select ENAME
   from emp
   where ENAME LIKE '_L%';
+29.
+  select sum(SAL)
+  from emp
+  group by DEPTNO;
 
   
