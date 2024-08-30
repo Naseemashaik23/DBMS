@@ -49,5 +49,9 @@
 24.
   select MAX(SAL)
   from emp;
+25.
+  select avg(SAL)
+  from emp
+  where JOB = 'SALESMAN';
 
   
