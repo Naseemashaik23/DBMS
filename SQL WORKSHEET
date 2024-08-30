@@ -46,5 +46,8 @@
   select ENAME
   from emp
   where JOB <>'PRESIDENT' AND JOB <> 'MANAGER';
+24.
+  select MAX(SAL)
+  from emp;
 
   
