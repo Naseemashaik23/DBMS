@@ -61,5 +61,12 @@
   select sum(SAL)
   from emp
   group by DEPTNO;
+30.
+  select DNAME
+  from dept
+  where DEPTNO IN (select DEPTNO
+    			        from emp
+    		        	group by DEPTNO
+    			        having count(*)=3);
 
   
