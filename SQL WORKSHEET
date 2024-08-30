@@ -38,5 +38,9 @@
   select ENAME
   from emp
   where ENAME LIKE 'J%S';
+22.
+  select ENAME
+  from emp
+  where DEPTNO <> 10 and DEPTNO <> 20 and DEPTNO <> 30;
 
   
