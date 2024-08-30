@@ -53,5 +53,9 @@
   select avg(SAL)
   from emp
   where JOB = 'SALESMAN';
+26.
+  select ENAME
+  from emp
+  where ENAME LIKE '_L%';
 
   
