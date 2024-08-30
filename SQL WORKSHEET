@@ -34,4 +34,9 @@
   select ENAME,DEPTNO
   from emp
   where COMM IS NOT NULL;
+21.
+  select ENAME
+  from emp
+  where ENAME LIKE 'J%S';
+
   
