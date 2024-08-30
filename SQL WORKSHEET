@@ -30,4 +30,8 @@
 14.
   select distinct JOB
   from emp;
+16.
+  select ENAME,DEPTNO
+  from emp
+  where COMM IS NOT NULL;
   
