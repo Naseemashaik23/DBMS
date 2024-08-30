@@ -42,5 +42,9 @@
   select ENAME
   from emp
   where DEPTNO <> 10 and DEPTNO <> 20 and DEPTNO <> 30;
+23.
+  select ENAME
+  from emp
+  where JOB <>'PRESIDENT' AND JOB <> 'MANAGER';
 
   
